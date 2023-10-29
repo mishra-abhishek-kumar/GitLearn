@@ -16,3 +16,8 @@ for(var i=0; i<items.length; i++) {
 
 let itemsByTag = document.getElementsByTagName('li');
 itemsByTag[4].style.backgroundColor = 'red';
+itemsByTag[2].style.display = 'none';
+
+var listItems = document.querySelector('.list-group-item:nth-child(2)');
+listItems.style.backgroundColor = 'green';
+
