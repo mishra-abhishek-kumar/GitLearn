@@ -13,3 +13,6 @@ items[2].style.backgroundColor = 'green';
 for(var i=0; i<items.length; i++) {
     items[i].style.fontWeight = 'bold';
 }
+
+let itemsByTag = document.getElementsByTagName('li');
+itemsByTag[4].style.backgroundColor = 'red';
